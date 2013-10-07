@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Restaurant 1</key>
+	<string>Rating</string>
+	<key>Restaurant 2</key>
+	<string>Rating</string>
+	<key>Restaurant 3</key>
+	<string>Rating</string>
+	<key>Restaurant 4</key>
+	<string>Rating</string>
+	<key>Restaurant 5</key>
+	<string>Rating</string>
+	<key>Restaurant 6</key>
+	<string>Rating</string>
+	<key>Restaurant 7</key>
+	<string>Rating</string>
+	<key>Restaurant 8</key>
+	<string>Rating</string>
+	<key>Restaurant 9</key>
+	<string>Rating</string>
+	<key>Restaurant 10</key>
+	<string>Rating</string>
+	<key>Restaurant 11</key>
+	<string>Rating</string>
+	<key>Restaurant 12</key>
+	<string>Rating</string>
+	<key>Restaurant 13</key>
+	<string>Rating</string>
+</dict>
+</plist>

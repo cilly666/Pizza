@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5328F59415DEFBEC00F4A955 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5328F59315DEFBEC00F4A955 /* UIKit.framework */; };
+		5328F59615DEFBEC00F4A955 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5328F59515DEFBEC00F4A955 /* Foundation.framework */; };
+		5328F59815DEFBEC00F4A955 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5328F59715DEFBEC00F4A955 /* CoreGraphics.framework */; };
+		5328F59E15DEFBED00F4A955 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5328F59C15DEFBED00F4A955 /* InfoPlist.strings */; };
+		5328F5A015DEFBED00F4A955 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5328F59F15DEFBED00F4A955 /* main.m */; };
+		5328F5A415DEFBED00F4A955 /* NWSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5328F5A315DEFBED00F4A955 /* NWSAppDelegate.m */; };
+		5328F5A715DEFBED00F4A955 /* NWSWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5328F5A615DEFBED00F4A955 /* NWSWelcomeViewController.m */; };
+		5328F5A915DEFBED00F4A955 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 5328F5A815DEFBED00F4A955 /* first.png */; };
+		5328F5AB15DEFBED00F4A955 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5328F5AA15DEFBED00F4A955 /* first@2x.png */; };
+		5328F5B015DEFBED00F4A955 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 5328F5AF15DEFBED00F4A955 /* second.png */; };
+		5328F5B215DEFBED00F4A955 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5328F5B115DEFBED00F4A955 /* second@2x.png */; };
+		5328F5B515DEFBED00F4A955 /* NWSWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5328F5B315DEFBED00F4A955 /* NWSWelcomeViewController.xib */; };
+		5328F5BF15DEFC2700F4A955 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5328F5BE15DEFC2700F4A955 /* CoreLocation.framework */; };
+		536BF6F715E5E39E00E8DA46 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536BF6F615E5E39E00E8DA46 /* Parse.framework */; };
+		536BF6F915E5E3DE00E8DA46 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536BF6F815E5E3DE00E8DA46 /* AudioToolbox.framework */; };
+		536BF6FB15E5E3E600E8DA46 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536BF6FA15E5E3E600E8DA46 /* CFNetwork.framework */; };
+		536BF6FD15E5E3F800E8DA46 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 536BF6FC15E5E3F800E8DA46 /* libsqlite3.dylib */; };
+		536BF6FF15E5E40400E8DA46 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 536BF6FE15E5E40400E8DA46 /* libz.1.1.3.dylib */; };
+		536BF70115E5E40C00E8DA46 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536BF70015E5E40C00E8DA46 /* MobileCoreServices.framework */; };
+		536BF70315E5E41400E8DA46 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536BF70215E5E41400E8DA46 /* QuartzCore.framework */; };
+		536BF70515E5E41C00E8DA46 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536BF70415E5E41C00E8DA46 /* Security.framework */; };
+		536BF70715E5E42A00E8DA46 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536BF70615E5E42A00E8DA46 /* StoreKit.framework */; };
+		536BF70915E5E43F00E8DA46 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536BF70815E5E43F00E8DA46 /* SystemConfiguration.framework */; };
+		53CA9DF815E3F4F700DD9846 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53CA9DF715E3F4F700DD9846 /* MapKit.framework */; };
+		53CA9DFB15E3F57600DD9846 /* NWSLocationServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CA9DFA15E3F57600DD9846 /* NWSLocationServices.m */; };
+		53CA9DFD15E40BDB00DD9846 /* restaurants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53CA9DFC15E40BDB00DD9846 /* restaurants.plist */; };
+		53DBE4F815EB493900B9C51C /* NWSAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DBE4F715EB493900B9C51C /* NWSAnnotation.m */; };
+		53E0CAEF15E5449300E90F65 /* NWSRestaurantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E0CAED15E5449300E90F65 /* NWSRestaurantViewController.m */; };
+		53E0CAF015E5449300E90F65 /* NWSRestaurantViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53E0CAEE15E5449300E90F65 /* NWSRestaurantViewController.xib */; };
+		53E3394F15ED43630060F8CE /* RestaurantController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E3394E15ED43630060F8CE /* RestaurantController.m */; };
+		53E3395615ED46FD0060F8CE /* RestaurantTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E3395515ED46FD0060F8CE /* RestaurantTableView.m */; };
+		53E3395C15EE345D0060F8CE /* Amicis.png in Resources */ = {isa = PBXBuildFile; fileRef = 53E3395B15EE345D0060F8CE /* Amicis.png */; };
+		53E3395E15EE986D0060F8CE /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 53E3395D15EE986D0060F8CE /* pizza.png */; };
+		53E3396215EE9BA10060F8CE /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 53E3396115EE9BA10060F8CE /* map.png */; };
+		53F95B4815EB57EC00BDCBB8 /* NWSMapViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F95B4615EB57EC00BDCBB8 /* NWSMapViewViewController.m */; };
+		53F95B4915EB57EC00BDCBB8 /* NWSMapViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53F95B4715EB57EC00BDCBB8 /* NWSMapViewViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5328F58F15DEFBEC00F4A955 /* VeganPizzaLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeganPizzaLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5328F59315DEFBEC00F4A955 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5328F59515DEFBEC00F4A955 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5328F59715DEFBEC00F4A955 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5328F59B15DEFBED00F4A955 /* VeganPizzaLove-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VeganPizzaLove-Info.plist"; sourceTree = "<group>"; };
+		5328F59D15DEFBED00F4A955 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5328F59F15DEFBED00F4A955 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5328F5A115DEFBED00F4A955 /* VeganPizzaLove-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VeganPizzaLove-Prefix.pch"; sourceTree = "<group>"; };
+		5328F5A215DEFBED00F4A955 /* NWSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NWSAppDelegate.h; sourceTree = "<group>"; };
+		5328F5A315DEFBED00F4A955 /* NWSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NWSAppDelegate.m; sourceTree = "<group>"; };
+		5328F5A515DEFBED00F4A955 /* NWSWelcomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NWSWelcomeViewController.h; sourceTree = "<group>"; };
+		5328F5A615DEFBED00F4A955 /* NWSWelcomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NWSWelcomeViewController.m; sourceTree = "<group>"; };
+		5328F5A815DEFBED00F4A955 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		5328F5AA15DEFBED00F4A955 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		5328F5AF15DEFBED00F4A955 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		5328F5B115DEFBED00F4A955 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		5328F5B415DEFBED00F4A955 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NWSWelcomeViewController.xib; sourceTree = "<group>"; };
+		5328F5BE15DEFC2700F4A955 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		536BF6F615E5E39E00E8DA46 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		536BF6F815E5E3DE00E8DA46 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		536BF6FA15E5E3E600E8DA46 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		536BF6FC15E5E3F800E8DA46 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		536BF6FE15E5E40400E8DA46 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		536BF70015E5E40C00E8DA46 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		536BF70215E5E41400E8DA46 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		536BF70415E5E41C00E8DA46 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		536BF70615E5E42A00E8DA46 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		536BF70815E5E43F00E8DA46 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		53CA9DF715E3F4F700DD9846 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		53CA9DF915E3F57600DD9846 /* NWSLocationServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NWSLocationServices.h; path = CustomViews/NWSLocationServices.h; sourceTree = "<group>"; };
+		53CA9DFA15E3F57600DD9846 /* NWSLocationServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NWSLocationServices.m; path = CustomViews/NWSLocationServices.m; sourceTree = "<group>"; };
+		53CA9DFC15E40BDB00DD9846 /* restaurants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = restaurants.plist; sourceTree = "<group>"; };
+		53DBE4F615EB493900B9C51C /* NWSAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWSAnnotation.h; sourceTree = "<group>"; };
+		53DBE4F715EB493900B9C51C /* NWSAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWSAnnotation.m; sourceTree = "<group>"; };
+		53E0CAEC15E5449300E90F65 /* NWSRestaurantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWSRestaurantViewController.h; sourceTree = "<group>"; };
+		53E0CAED15E5449300E90F65 /* NWSRestaurantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWSRestaurantViewController.m; sourceTree = "<group>"; };
+		53E0CAEE15E5449300E90F65 /* NWSRestaurantViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NWSRestaurantViewController.xib; sourceTree = "<group>"; };
+		53E3394D15ED43630060F8CE /* RestaurantController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantController.h; sourceTree = "<group>"; };
+		53E3394E15ED43630060F8CE /* RestaurantController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantController.m; sourceTree = "<group>"; };
+		53E3395415ED46FD0060F8CE /* RestaurantTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantTableView.h; sourceTree = "<group>"; };
+		53E3395515ED46FD0060F8CE /* RestaurantTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantTableView.m; sourceTree = "<group>"; };
+		53E3395B15EE345D0060F8CE /* Amicis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Amicis.png; sourceTree = "<group>"; };
+		53E3395D15EE986D0060F8CE /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
+		53E3396115EE9BA10060F8CE /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		53F95B4515EB57EC00BDCBB8 /* NWSMapViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWSMapViewViewController.h; sourceTree = "<group>"; };
+		53F95B4615EB57EC00BDCBB8 /* NWSMapViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWSMapViewViewController.m; sourceTree = "<group>"; };
+		53F95B4715EB57EC00BDCBB8 /* NWSMapViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NWSMapViewViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5328F58C15DEFBEC00F4A955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536BF70915E5E43F00E8DA46 /* SystemConfiguration.framework in Frameworks */,
+				536BF70715E5E42A00E8DA46 /* StoreKit.framework in Frameworks */,
+				536BF70515E5E41C00E8DA46 /* Security.framework in Frameworks */,
+				536BF70315E5E41400E8DA46 /* QuartzCore.framework in Frameworks */,
+				536BF70115E5E40C00E8DA46 /* MobileCoreServices.framework in Frameworks */,
+				536BF6FF15E5E40400E8DA46 /* libz.1.1.3.dylib in Frameworks */,
+				536BF6FD15E5E3F800E8DA46 /* libsqlite3.dylib in Frameworks */,
+				5328F59815DEFBEC00F4A955 /* CoreGraphics.framework in Frameworks */,
+				536BF6FB15E5E3E600E8DA46 /* CFNetwork.framework in Frameworks */,
+				536BF6F915E5E3DE00E8DA46 /* AudioToolbox.framework in Frameworks */,
+				53CA9DF815E3F4F700DD9846 /* MapKit.framework in Frameworks */,
+				5328F5BF15DEFC2700F4A955 /* CoreLocation.framework in Frameworks */,
+				5328F59415DEFBEC00F4A955 /* UIKit.framework in Frameworks */,
+				5328F59615DEFBEC00F4A955 /* Foundation.framework in Frameworks */,
+				536BF6F715E5E39E00E8DA46 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5328F58415DEFBEC00F4A955 = {
+			isa = PBXGroup;
+			children = (
+				5328F59915DEFBEC00F4A955 /* VeganPizzaLove */,
+				5328F59215DEFBEC00F4A955 /* Frameworks */,
+				5328F59015DEFBEC00F4A955 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5328F59015DEFBEC00F4A955 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5328F58F15DEFBEC00F4A955 /* VeganPizzaLove.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5328F59215DEFBEC00F4A955 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				536BF70815E5E43F00E8DA46 /* SystemConfiguration.framework */,
+				536BF70615E5E42A00E8DA46 /* StoreKit.framework */,
+				536BF70415E5E41C00E8DA46 /* Security.framework */,
+				536BF70215E5E41400E8DA46 /* QuartzCore.framework */,
+				536BF70015E5E40C00E8DA46 /* MobileCoreServices.framework */,
+				536BF6FE15E5E40400E8DA46 /* libz.1.1.3.dylib */,
+				536BF6FC15E5E3F800E8DA46 /* libsqlite3.dylib */,
+				536BF6FA15E5E3E600E8DA46 /* CFNetwork.framework */,
+				536BF6F815E5E3DE00E8DA46 /* AudioToolbox.framework */,
+				536BF6F615E5E39E00E8DA46 /* Parse.framework */,
+				53CA9DF715E3F4F700DD9846 /* MapKit.framework */,
+				5328F5BE15DEFC2700F4A955 /* CoreLocation.framework */,
+				5328F59315DEFBEC00F4A955 /* UIKit.framework */,
+				5328F59515DEFBEC00F4A955 /* Foundation.framework */,
+				5328F59715DEFBEC00F4A955 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5328F59915DEFBEC00F4A955 /* VeganPizzaLove */ = {
+			isa = PBXGroup;
+			children = (
+				5328F5A215DEFBED00F4A955 /* NWSAppDelegate.h */,
+				5328F5A315DEFBED00F4A955 /* NWSAppDelegate.m */,
+				5328F5C415DEFC9D00F4A955 /* Model Objects */,
+				5328F5C515DEFCB300F4A955 /* Custom Views */,
+				5328F5C615DEFCC600F4A955 /* ViewControllers */,
+				5328F5C815DEFD4100F4A955 /* Assets */,
+				5328F59A15DEFBED00F4A955 /* Supporting Files */,
+			);
+			path = VeganPizzaLove;
+			sourceTree = "<group>";
+		};
+		5328F59A15DEFBED00F4A955 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53E3395B15EE345D0060F8CE /* Amicis.png */,
+				5328F59B15DEFBED00F4A955 /* VeganPizzaLove-Info.plist */,
+				5328F59C15DEFBED00F4A955 /* InfoPlist.strings */,
+				5328F59F15DEFBED00F4A955 /* main.m */,
+				5328F5A115DEFBED00F4A955 /* VeganPizzaLove-Prefix.pch */,
+				53CA9DFC15E40BDB00DD9846 /* restaurants.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5328F5C415DEFC9D00F4A955 /* Model Objects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Model Objects";
+			sourceTree = "<group>";
+		};
+		5328F5C515DEFCB300F4A955 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				53E3395415ED46FD0060F8CE /* RestaurantTableView.h */,
+				53E3395515ED46FD0060F8CE /* RestaurantTableView.m */,
+				53E3394D15ED43630060F8CE /* RestaurantController.h */,
+				53E3394E15ED43630060F8CE /* RestaurantController.m */,
+				53CA9DF915E3F57600DD9846 /* NWSLocationServices.h */,
+				53CA9DFA15E3F57600DD9846 /* NWSLocationServices.m */,
+				53DBE4F615EB493900B9C51C /* NWSAnnotation.h */,
+				53DBE4F715EB493900B9C51C /* NWSAnnotation.m */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		5328F5C615DEFCC600F4A955 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				53E0CAEC15E5449300E90F65 /* NWSRestaurantViewController.h */,
+				53E0CAED15E5449300E90F65 /* NWSRestaurantViewController.m */,
+				53F95B4515EB57EC00BDCBB8 /* NWSMapViewViewController.h */,
+				53F95B4615EB57EC00BDCBB8 /* NWSMapViewViewController.m */,
+				5328F5A515DEFBED00F4A955 /* NWSWelcomeViewController.h */,
+				5328F5A615DEFBED00F4A955 /* NWSWelcomeViewController.m */,
+				5328F5C915DEFDC000F4A955 /* Map View */,
+				5328F5C715DEFD0C00F4A955 /* xib resources */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5328F5C715DEFD0C00F4A955 /* xib resources */ = {
+			isa = PBXGroup;
+			children = (
+				53F95B4715EB57EC00BDCBB8 /* NWSMapViewViewController.xib */,
+				5328F5B315DEFBED00F4A955 /* NWSWelcomeViewController.xib */,
+				53E0CAEE15E5449300E90F65 /* NWSRestaurantViewController.xib */,
+			);
+			name = "xib resources";
+			sourceTree = "<group>";
+		};
+		5328F5C815DEFD4100F4A955 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				53E3396115EE9BA10060F8CE /* map.png */,
+				53E3395D15EE986D0060F8CE /* pizza.png */,
+				5328F5A815DEFBED00F4A955 /* first.png */,
+				5328F5AA15DEFBED00F4A955 /* first@2x.png */,
+				5328F5AF15DEFBED00F4A955 /* second.png */,
+				5328F5B115DEFBED00F4A955 /* second@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		5328F5C915DEFDC000F4A955 /* Map View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Map View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5328F58E15DEFBEC00F4A955 /* VeganPizzaLove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5328F5BB15DEFBED00F4A955 /* Build configuration list for PBXNativeTarget "VeganPizzaLove" */;
+			buildPhases = (
+				5328F58B15DEFBEC00F4A955 /* Sources */,
+				5328F58C15DEFBEC00F4A955 /* Frameworks */,
+				5328F58D15DEFBEC00F4A955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeganPizzaLove;
+			productName = VeganPizzaLove;
+			productReference = 5328F58F15DEFBEC00F4A955 /* VeganPizzaLove.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5328F58615DEFBEC00F4A955 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NWS;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Newswivel;
+			};
+			buildConfigurationList = 5328F58915DEFBEC00F4A955 /* Build configuration list for PBXProject "VeganPizzaLove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5328F58415DEFBEC00F4A955;
+			productRefGroup = 5328F59015DEFBEC00F4A955 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5328F58E15DEFBEC00F4A955 /* VeganPizzaLove */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5328F58D15DEFBEC00F4A955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5328F59E15DEFBED00F4A955 /* InfoPlist.strings in Resources */,
+				5328F5A915DEFBED00F4A955 /* first.png in Resources */,
+				5328F5AB15DEFBED00F4A955 /* first@2x.png in Resources */,
+				5328F5B015DEFBED00F4A955 /* second.png in Resources */,
+				5328F5B215DEFBED00F4A955 /* second@2x.png in Resources */,
+				5328F5B515DEFBED00F4A955 /* NWSWelcomeViewController.xib in Resources */,
+				53CA9DFD15E40BDB00DD9846 /* restaurants.plist in Resources */,
+				53E0CAF015E5449300E90F65 /* NWSRestaurantViewController.xib in Resources */,
+				53F95B4915EB57EC00BDCBB8 /* NWSMapViewViewController.xib in Resources */,
+				53E3395C15EE345D0060F8CE /* Amicis.png in Resources */,
+				53E3395E15EE986D0060F8CE /* pizza.png in Resources */,
+				53E3396215EE9BA10060F8CE /* map.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5328F58B15DEFBEC00F4A955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5328F5A015DEFBED00F4A955 /* main.m in Sources */,
+				5328F5A415DEFBED00F4A955 /* NWSAppDelegate.m in Sources */,
+				5328F5A715DEFBED00F4A955 /* NWSWelcomeViewController.m in Sources */,
+				53CA9DFB15E3F57600DD9846 /* NWSLocationServices.m in Sources */,
+				53E0CAEF15E5449300E90F65 /* NWSRestaurantViewController.m in Sources */,
+				53DBE4F815EB493900B9C51C /* NWSAnnotation.m in Sources */,
+				53F95B4815EB57EC00BDCBB8 /* NWSMapViewViewController.m in Sources */,
+				53E3394F15ED43630060F8CE /* RestaurantController.m in Sources */,
+				53E3395615ED46FD0060F8CE /* RestaurantTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5328F59C15DEFBED00F4A955 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5328F59D15DEFBED00F4A955 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5328F5B315DEFBED00F4A955 /* NWSWelcomeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5328F5B415DEFBED00F4A955 /* en */,
+			);
+			name = NWSWelcomeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5328F5B915DEFBED00F4A955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5328F5BA15DEFBED00F4A955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5328F5BC15DEFBED00F4A955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VeganPizzaLove/VeganPizzaLove-Prefix.pch";
+				INFOPLIST_FILE = "VeganPizzaLove/VeganPizzaLove-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5328F5BD15DEFBED00F4A955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VeganPizzaLove/VeganPizzaLove-Prefix.pch";
+				INFOPLIST_FILE = "VeganPizzaLove/VeganPizzaLove-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5328F58915DEFBEC00F4A955 /* Build configuration list for PBXProject "VeganPizzaLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5328F5B915DEFBED00F4A955 /* Debug */,
+				5328F5BA15DEFBED00F4A955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5328F5BB15DEFBED00F4A955 /* Build configuration list for PBXNativeTarget "VeganPizzaLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5328F5BC15DEFBED00F4A955 /* Debug */,
+				5328F5BD15DEFBED00F4A955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5328F58615DEFBEC00F4A955 /* Project object */;
+}
